@@ -30,3 +30,7 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('.portfolio-items').masonry({
+  itemSelector: '.portfolio-item'
+});

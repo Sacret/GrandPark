@@ -1,1 +1,75 @@
-123
+title = "Центр красоты и здоровья \"Гранд Парк\""
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Гранд Парк</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Новости</a>
+                    </li>
+                    <li>
+                        <a href="events">Акции</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Услуги</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">О нас</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="price">Прайс</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!-- Header -->
+    <header class="home-header">
+        {% partial "header" %}
+    </header>
+    
+    <!-- Services Section -->
+    <section id="services">
+      {% partial "services" %}
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light-gray">
+      {% partial "portfolio" %}
+    </section>
+
+    <!-- About Section -->
+  <section id="about">
+        {% partial "about" %}
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        {% partial "contact" %}
+    </section>

@@ -259,13 +259,26 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../images/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.home-header {
+    background-image: url(../images/header-bg.jpg);
+}
+
+.event-header {
+    background-image: url(../images/header-events-bg.jpg);
+    max-height: 500px;
+}
+
+.price-header {
+    background-image: url(../images/header-price-bg.jpg);
+    max-height: 500px;
 }
 
 header .intro-text {
@@ -857,4 +870,20 @@ body {
 
 .img-news {
     max-height: 112px;
+}
+
+.contact-text {
+    color: #fff;
+}
+
+.events-container {
+    padding: 50px 0;
+}
+
+.events-container .col-md-12 {
+    margin: 20px 0;
+}
+
+.events-container .col-md-12 .img-news {
+    min-height: 200px;
 }
