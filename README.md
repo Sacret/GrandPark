@@ -1,3 +1,5 @@
+![Image of Grand Park](http://sacret.ru/sites/default/files/styles/gallery_image_full/public/portfolio/grand_.png)
+
 # Installation wizard for October
 
 The wizard installation is a recommended way to install October. It is simpler than the command-line installation and doesn't require any special skills.
